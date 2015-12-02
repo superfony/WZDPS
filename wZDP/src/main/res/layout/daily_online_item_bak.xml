@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:background="@drawable/daily_onlinelist_item_bg"
+    android:descendantFocusability="blocksDescendants" >
+    <!-- 头像 -->
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="80dip"
+        android:layout_height="80dip"
+        android:layout_centerVertical="true"
+        android:layout_margin="5dip" />
+
+    <RelativeLayout
+        android:id="@+id/real_lay"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="40dip"
+        android:layout_toRightOf="@id/icon" >
+
+        <!-- 人员姓名 -->
+
+        <TextView
+            android:id="@+id/persionname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:layout_marginTop="3dip"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="@color/OrangeRed"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+        <!-- 标题 -->
+
+        <TextView
+            android:id="@+id/titleValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="200dip"
+            android:layout_toRightOf="@id/persionname"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+        <ImageView
+            android:id="@+id/new_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-190dip"
+            android:layout_toRightOf="@id/titleValue" />
+        <!-- 时间 -->
+
+        <TextView
+            android:id="@+id/timeValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="20dip"
+            android:textColor="@color/gray"
+            android:textSize="12sp" />
+        <!-- 评论次数 -->
+
+        <TextView
+            android:id="@+id/numValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dip"
+            android:layout_marginTop="10dip"
+            android:textColor="@color/red" />
+        <!-- 内容 -->
+        <TextView
+            android:id="@+id/content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/persionname"
+            android:layout_marginLeft="30dip"
+            android:layout_marginRight="150dip"
+            android:layout_marginTop="8dip"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="@color/gray"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/del_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/del_btn"
+        android:visibility="gone"
+        android:focusable="false" />
+
+</RelativeLayout>

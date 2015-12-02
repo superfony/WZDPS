@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="HardcodedText" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:background="@drawable/exit_btn"
+        android:orientation="vertical" >
+<!-- 
+        <CheckBox
+            android:id="@+id/nomore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:layout_gravity="center"
+            android:text="不再提示" /> -->
+   <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="90dip"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/exit_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/exit_cancel">
+            </Button>
+
+            <Button
+                android:id="@+id/drop_out"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dip"
+                android:background="@drawable/drop_out" >
+            </Button>
+            </LinearLayout>
+        </LinearLayout>
+</RelativeLayout><!-- From: file:/Users/fony/Desktop/fony/as/asprojects/Android-Gradle-Examples-master/WZDP1/wZDP/src/main/res/layout/exit_dialog.xml -->

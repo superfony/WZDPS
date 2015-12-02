@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pagination_widget_root"
+    android:layout_width="fill_parent"
+    android:layout_height="55dip"
+    android:fillViewport="true" >
+
+    <RelativeLayout
+        android:id="@+id/pagination_widget_ctrl"
+        android:layout_width="fill_parent"
+        android:layout_height="90dip"
+        android:background="@drawable/fanyebg" >
+
+        <RelativeLayout
+            android:id="@+id/fenye_lay"
+            android:layout_width="wrap_content"
+            android:layout_height="60dip"
+            android:layout_marginTop="10dip"
+            android:layout_centerHorizontal="true" >
+
+            <Button
+                android:id="@+id/btn_firstPage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:background="@drawable/btn_fanye"
+                android:enabled="false"
+                android:textColor="@color/white"
+                android:layout_marginTop="10dip"
+                android:layout_marginBottom="5dip"
+                android:text="@string/firstPage" />
+
+            <Button
+                android:id="@+id/btn_prevPage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dip"
+                android:layout_toRightOf="@id/btn_firstPage"
+                android:background="@drawable/btn_fanye"
+                android:enabled="false"
+                android:textColor="@color/white"
+                 android:layout_marginTop="10dip"
+                android:layout_marginBottom="5dip"
+                android:text="@string/prevPage" />
+
+            <RelativeLayout
+                android:id="@+id/pageRecordMainLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dip"
+                android:layout_marginTop="6dip"
+                android:layout_toRightOf="@id/btn_prevPage"
+                android:layout_marginLeft="10dip"
+                 >
+
+                <LinearLayout
+                    android:id="@+id/pageRecourdLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="10dip"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/order"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:id="@+id/txt_currentPage"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="/"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:id="@+id/txt_pageCount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/page"
+                        android:textColor="@android:color/black" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/pageSizeLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pageRecourdLayout"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="10dip"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/all"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:id="@+id/txt_page_allCount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/entries"
+                        android:textColor="@android:color/black" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/btn_nextPage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dip"
+                android:layout_toRightOf="@id/pageRecordMainLayout"
+                android:background="@drawable/btn_fanye"
+                android:enabled="false"
+                android:textColor="@color/white"
+                 android:layout_marginTop="10dip"
+                android:layout_marginBottom="5dip"
+                android:text="@string/nextPage" />
+
+            <Button
+                android:id="@+id/btn_lastPage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dip"
+                android:layout_toRightOf="@id/btn_nextPage"
+                android:background="@drawable/btn_fanye"
+                android:enabled="false"
+                android:textColor="@color/white"
+                 android:layout_marginTop="10dip"
+                android:layout_marginBottom="5dip"
+                android:text="@string/lastPage" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</HorizontalScrollView><!-- From: file:/Users/fony/Desktop/fony/as/asprojects/Android-Gradle-Examples-master/WZDP1/wZDP/src/main/res/layout/pagination_widget.xml -->

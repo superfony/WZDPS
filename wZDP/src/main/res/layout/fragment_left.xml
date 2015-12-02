@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="251dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/leftbg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:ignore="HardcodedText" >
+<!-- 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/sidebar_icon_user"
+        android:gravity="center"
+        android:text="欢迎您，管理员！"
+        android:textColor="#ffffffff"
+        android:textSize="14sp" /> -->
+
+    <ScrollView
+        android:id="@+id/scrollView_left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:overScrollMode="always" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <!-- <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:gravity="center_horizontal" />
+ -->
+            <TextView
+                android:id="@+id/tv_menu0"
+                style="@style/leftTextViewStyle"
+                android:background="@drawable/sidebar_icon_tq"
+                android:tag="0" >
+            </TextView>
+<!-- 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:gravity ="center_horizontal" />-->
+
+            <TextView
+                style="@style/leftTextViewStyle"
+                android:background="@drawable/btn2"
+                android:tag="1" >
+            </TextView>
+
+            <!-- <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:gravity="center_horizontal" />
+ -->
+            <TextView
+                style="@style/leftTextViewStyle"
+                android:background="@drawable/btn3"
+                android:tag="2" >
+            </TextView>
+
+          <!--   <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                style="@style/leftTextViewStyle"
+                android:drawableTop="@drawable/sidebar_icon_biaoxiang"
+                android:tag="3"
+                android:text="@string/pro_info" >
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                style="@style/leftTextViewStyle"
+                android:drawableTop="@drawable/sidebar_icon_biaoxiang"
+                android:tag="4"
+                android:text="@string/pro_check" >
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                style="@style/leftTextViewStyle"
+                android:drawableTop="@drawable/sidebar_icon_biaoxiang"
+                android:tag="5"
+                android:text="@string/pro_service" >
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                style="@style/leftTextViewStyle"
+                android:drawableTop="@drawable/sidebar_icon_biaoxiang"
+                android:tag="6"
+                android:text="@string/online_count" >
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                style="@style/leftTextViewStyle"
+                android:drawableTop="@drawable/sidebar_icon_biaoxiang"
+                android:tag="7"
+                android:text="@string/online_sudio" >
+            </TextView> -->
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

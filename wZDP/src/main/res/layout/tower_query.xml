@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true"
+    android:scrollbars="none" >
+
+    <RelativeLayout
+        android:id="@+id/queryRoot"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="58dip"
+        android:background="@drawable/searchbg"
+        >
+       <TableLayout
+            android:id="@+id/search_table"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="300dip"
+            android:layout_marginTop="50dip" >
+
+            <TableRow
+                android:id="@+id/tableRow_one"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                 >
+
+                <TextView
+                    android:id="@+id/search_title_one"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/itemtextcolor"
+                    android:text="项目编码："
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/search_et_one"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="8" />
+
+                <TextView
+                    android:id="@+id/search_title_two"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="项目名称："
+                    android:textColor="@color/itemtextcolor"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/search_et_two"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="8" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal" >
+
+                <TextView
+                    android:id="@+id/search_title_three"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/itemtextcolor"
+                    android:text="项目电压："
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/search_et_three"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="8" />
+
+                <TextView
+                    android:id="@+id/search_title_four"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/itemtextcolor"
+                    android:text="项目单位："
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/search_et_four"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="8" />
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal" >
+
+                <TextView
+                    android:id="@+id/search_title_five"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/itemtextcolor"
+                    android:text="计划开工时间开始时间："
+                    android:textSize="18sp" />
+
+                <EditText 
+                    android:id="@+id/search_et_five"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="8"/>
+
+                <TextView
+                    android:id="@+id/search_title_six"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/itemtextcolor"
+                    android:text="计划开工时间结束时间："
+                    android:textSize="18sp" />
+
+                <EditText 
+                    android:id="@+id/search_et_six"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="8"/>
+            </TableRow>
+             <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal" >
+
+                <TextView
+                    android:id="@+id/search_title_seven"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/itemtextcolor"
+                    android:text="计划投产时间开始时间："
+                    android:textSize="18sp" />
+
+                <EditText 
+                    android:id="@+id/search_et_seven"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="8"/>
+
+                <TextView
+                    android:id="@+id/search_title_eight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/itemtextcolor"
+                    android:text="计划投产时间结束时间："
+                    android:textSize="18sp" />
+
+                <EditText 
+                    android:id="@+id/search_et_eight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="8"/>
+            </TableRow>
+
+        </TableLayout>
+
+        <LinearLayout
+            android:id="@+id/submit_btn_lay"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/search_table"
+            android:layout_marginTop="50dip"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+            <Button
+                android:id="@+id/query"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="50dip"
+                android:background="@drawable/search_btn_bg">
+            </Button>
+
+            <Button
+                android:id="@+id/cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dip"
+                android:background="@drawable/cancel_btn_bg" >
+                
+            </Button>
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>

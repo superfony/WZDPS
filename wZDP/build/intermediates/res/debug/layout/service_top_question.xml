@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+      
+    <Button 
+        android:id="@+id/itemOnclick"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="模拟list"
+        
+        />
+  
+
+</RelativeLayout>
+<!-- From: file:/Users/fony/Desktop/fony/as/asprojects/Android-Gradle-Examples-master/WZDP1/wZDP/src/main/res/layout/service_top_question.xml -->

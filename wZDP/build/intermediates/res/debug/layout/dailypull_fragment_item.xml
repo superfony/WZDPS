@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/contentRoot"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/daily_bkg">
+
+
+    <com.epsmart.wzdp.widget.PullToRefreshListView
+        xmlns:dafruits="http://schemas.android.com/apk/res/com.epsmart.wzdp"
+        android:id="@+id/lv_pagination_widget_data_body"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="@android:color/transparent"
+        android:choiceMode="singleChoice"
+        android:footerDividersEnabled="false"
+        android:divider="#00000000"
+		android:dividerHeight="12dp"
+		android:layout_marginLeft="10dip"
+   		android:layout_marginRight="8dip"
+        dafruits:scrollBarPanel="@layout/scrollbarpanel"
+        dafruits:scrollBarPanelInAnimation="@anim/in"
+        dafruits:scrollBarPanelOutAnimation="@anim/out" />
+
+
+
+</RelativeLayout><!-- From: file:/Users/fony/Desktop/fony/as/asprojects/Android-Gradle-Examples-master/WZDP1/wZDP/src/main/res/layout/dailypull_fragment_item.xml -->

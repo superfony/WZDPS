@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <!-- From: file:/Users/fony/Desktop/fony/as/asprojects/Android-Gradle-Examples-master/WZDP1/wZDP/src/main/res/values/array.xml -->
+    <eat-comment/>
+    <string-array name="arry">
+        <item>有</item>
+        <item>无</item>
+    </string-array>
+    <string-array name="arrys">
+        <item>全部</item>
+        <item>500kV以上</item>
+        <item>220kV</item>
+        <item>110kV</item>
+        <item>35kV</item>
+        <item>其他</item>
+    </string-array>
+    <!-- From: file:/Users/fony/Desktop/fony/as/asprojects/Android-Gradle-Examples-master/WZDP1/wZDP/build/intermediates/exploded-aar/WZDP1/sdingmenufony/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <string-array name="color_names">
+        <item>Red</item>
+        <item>Green</item>
+        <item>Blue</item>
+    </string-array>
+    <string-array name="setting_items">
+        <item>用户信息</item>
+        <item>意见反馈</item>
+        <item>版本更新</item>
+        <item>关于我们</item>
+        <item>设置</item>
+        <item>退出</item>
+    </string-array>
+    <!-- From: file:/Users/fony/Desktop/fony/as/asprojects/Android-Gradle-Examples-master/WZDP1/wZDP/src/main/res/values/color.xml -->
+    <eat-comment/>
+    <color name="OrangeRed">#FF9933</color>
+    <color name="author_text">#0e5986</color>
+    <!-- From: file:/Users/fony/Desktop/fony/as/asprojects/Android-Gradle-Examples-master/WZDP1/wZDP/build/intermediates/exploded-aar/WZDP1/sdingmenufony/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <color name="black">#000</color>
+    <!-- From: file:/Users/fony/Desktop/fony/as/asprojects/Android-Gradle-Examples-master/WZDP1/wZDP/src/main/res/values/color.xml -->
+    <eat-comment/>
+    <color name="blue">#0000FF</color>
+    <color name="bright_foreground_light">#ff000000</color>
+    <color name="bright_foreground_light_disabled">#80000000</color>
+    <color name="bright_foreground_light_inverse">#ffffffff</color>
+    <color name="common_blue">#4b8bbd</color>
+    <color name="common_dark">#3d5562</color>
+    <color name="common_dark_disabled">#9aa7af</color>
+    <color name="common_dark_shadow">#dedede</color>
+    <color name="common_green">#60990c</color>
+    <color name="common_grey">#8496a0</color>
+    <color name="common_grey_disabled">#aabbc4</color>
+    <color name="common_red">#e62f2f</color>
+    <color name="common_white">#ffffff</color>
+    <color name="common_white_disabled">#e7e7e7</color>
+    <color name="common_white_shadow">#414141</color>
+    <color name="common_yellow">#f1930d</color>
+    <color name="contents_text">#ff000000</color>
+    <color name="daily_color">#f6803a</color>
+    <color name="dim_foreground_light">#808080</color>
+    <color name="dim_foreground_light_disabled">#80323232</color>
+    <color name="dim_foreground_light_inverse">#ff006eaa</color>
+    <color name="dim_foreground_light_inverse_disabled">#80bebebe</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="face_bg">#eef1f4</color>
+    <color name="ff40ab54">#ff40ab54</color>
+    <color name="fff1f2f3">#fff1f2f3</color>
+    <color name="frame_button_text_nor">#033a5c</color>
+    <color name="frame_button_text_select">#FFFFFF</color>
+    <color name="full_transparent">#00000000</color>
+    <color name="gold">#FFD700</color>
+    <color name="gray">#808080</color>
+    <color name="grayslate">#708090</color>
+    <color name="graywhite">#F5F5F5</color>
+    <color name="green">#008000</color>
+    <color name="half_transparent">#aa000000</color>
+    <color name="head_text">#0e5986</color>
+    <color name="item_bg">#f6fbfa</color>
+    <color name="item_line_bg">#cee7e6</color>
+    <color name="itemtextcolor">#006f6b</color>
+    <color name="itemtextcolors">#000000</color>
+    <color name="lemonyellow">#FFFACD</color>
+    <color name="lightblue">#0083FF</color>
+    <color name="lightwhite">#ddd</color>
+    <color name="listitem_black">#ff000000</color>
+    <color name="listitem_blue">#0e5986</color>
+    <color name="listitem_gray">#ff9da19e</color>
+    <color name="listitem_green">#ffe3ffc6</color>
+    <color name="listitem_greenyellow">#ff87b869</color>
+    <color name="listitem_transparent">#00000000</color>
+    <color name="listitem_white">#ffffffff</color>
+    <color name="listitem_yellow">#fffaffbf</color>
+    <color name="orange">#FFA500</color>
+    <color name="orangeh">#980000</color>
+    <!-- From: file:/Users/fony/Desktop/fony/as/asprojects/Android-Gradle-Examples-master/WZDP1/wZDP/src/main/res/values/fileexplorer_colors.xml -->
+    <eat-comment/>
+    <color name="page_bg">#fff9e9</color>
+    <!-- From: file:/Users/fony/Desktop/fony/as/asprojects/Android-Gradle-Examples-master/WZDP1/wZDP/src/main/res/values/color.xml -->
+    <eat-comment/>
+    <color name="page_viewer_margin_color">#007800</color>
+    <color name="pink">#FFC0CB</color>
+    <color name="possible_result_points">#c0ffbd21</color>
+    <color name="purple">#800080</color>
+    <color name="red">#FF0000</color>
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c099cc00</color>
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="tab_indicator_text_selected">#ffffff</color>
+    <color name="tab_indicator_text_unselected">#aac5d7</color>
+    <color name="table_line_title">#006666</color>
+    <color name="table_show_bg">#cee7e6</color>
+    <color name="transparent">#00000000</color>
+    <color name="verson">#888888</color>
+    <color name="viewfinder_laser">#ffcc0000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="weight_bar_buttondown">#63A3D7</color>
+    <color name="weight_bar_buttonup">#A4A9AE</color>
+    <color name="white">#fff</color>
+    <color name="yellow">#FFFF00</color>
+    <declare-styleable name="Circle"><attr format="integer" name="circleBackground"/><attr name="firstChildPosition"><enum name="East" value="0"/><enum name="South" value="90"/><enum name="West" value="180"/><enum name="North" value="270"/></attr><attr format="boolean" name="rotateToCenter"/><attr format="boolean" name="isRotating"/></declare-styleable>
+    <declare-styleable name="CircleImageView"><attr format="string" name="name"/></declare-styleable>
+    <declare-styleable name="FixedGridLayout"><attr format="dimension" name="cellWidth"/><attr format="dimension" name="cellHeight"/></declare-styleable>
+    <declare-styleable name="MyAbsSpinner"><attr name="entries"/></declare-styleable>
+    <declare-styleable name="MyGallery"><attr name="gravity"/><attr format="integer" min="0" name="animationDuration"/><attr format="dimension" name="spacing"/><attr format="float" name="unselectedAlpha"/></declare-styleable>
+    <declare-styleable name="PullBarListView"><attr format="reference" name="scrollBarPanel"/><attr format="reference" name="scrollBarPanelInAnimation"/><attr format="reference" name="scrollBarPanelOutAnimation"/></declare-styleable>
+    <declare-styleable name="SlidingMenu"><attr name="mode"><enum name="left" value="0"/><enum name="right" value="1"/></attr><attr format="reference" name="viewAbove"/><attr format="reference" name="viewBehind"/><attr format="dimension" name="behindOffset"/><attr format="dimension" name="behindWidth"/><attr format="float" name="behindScrollScale"/><attr name="touchModeAbove"><enum name="margin" value="0"/><enum name="fullscreen" value="1"/></attr><attr name="touchModeBehind"><enum name="margin" value="0"/><enum name="fullscreen" value="1"/></attr><attr format="reference" name="shadowDrawable"/><attr format="dimension" name="shadowWidth"/><attr format="boolean" name="fadeEnabled"/><attr format="float" name="fadeDegree"/><attr format="boolean" name="selectorEnabled"/><attr format="reference" name="selectorDrawable"/></declare-styleable>
+    <declare-styleable name="SwitchButton"><attr format="reference|color" name="frameDrawable"/><attr format="reference|color" name="stateDrawable"/><attr format="reference|color" name="stateMaskDrawable"/><attr format="reference|color" name="sliderDrawable"/><attr format="dimension" name="withTextInterval"/></declare-styleable>
+    <declare-styleable name="Theme"><attr format="reference" name="galleryStyle"/><attr format="reference" name="spinnerStyle"/><attr name="gravity"><flag name="top" value="0x30"/><flag name="bottom" value="0x50"/><flag name="left" value="0x03"/><flag name="right" value="0x05"/><flag name="center_vertical" value="0x10"/><flag name="fill_vertical" value="0x70"/><flag name="center_horizontal" value="0x01"/><flag name="fill_horizontal" value="0x07"/><flag name="center" value="0x11"/><flag name="fill" value="0x77"/><flag name="clip_vertical" value="0x80"/><flag name="clip_horizontal" value="0x08"/></attr><attr format="reference" name="entries"/></declare-styleable>
+    <declare-styleable name="TitleIndicator"><attr format="dimension" name="titlePadding"/><attr format="dimension" name="clipPadding"/><attr format="color|reference" name="textColor"/><attr format="dimension" name="textSizeNormal"/><attr format="dimension" name="textSizeSelected"/><attr format="dimension" name="footerLineHeight"/><attr format="color" name="footerColor"/><attr format="dimension" name="footerTriangleHeight"/></declare-styleable>
+    <!-- From: file:/Users/fony/Desktop/fony/as/asprojects/Android-Gradle-Examples-master/WZDP1/wZDP/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="common_text_size_large">18dp</dimen>
+    <dimen name="common_text_size_middle">16dp</dimen>
+    <dimen name="common_text_size_middle_2">19dp</dimen>
+    <dimen name="common_text_size_small">13dp</dimen>
+    <dimen name="common_text_size_small_2">10dp</dimen>
+    <dimen name="common_text_size_small_3">12dp</dimen>
+    <dimen name="itemWidth">100dp</dimen>
+    <dimen name="itemWidth1">90dp</dimen>
+    <dimen name="itemWidthoneline">250dp</dimen>
+    <!-- From: file:/Users/fony/Desktop/fony/as/asprojects/Android-Gradle-Examples-master/WZDP1/wZDP/build/intermediates/exploded-aar/WZDP1/sdingmenufony/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <dimen name="list_padding">10dp</dimen>
+    <!-- From: file:/Users/fony/Desktop/fony/as/asprojects/Android-Gradle-Examples-master/WZDP1/wZDP/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="page_margin_width">12dp</dimen>
+    <!-- From: file:/Users/fony/Desktop/fony/as/asprojects/Android-Gradle-Examples-master/WZDP1/wZDP/build/intermediates/exploded-aar/WZDP1/sdingmenufony/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <dimen name="shadow_width">15dp</dimen>
+    <dimen name="slidingmenu_offset">60dp</dimen>
+    <!-- From: file:/Users/fony/Desktop/fony/as/asprojects/Android-Gradle-Examples-master/WZDP1/wZDP/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="tableWidth">300dp</dimen>
+    <dimen name="text_size_10">10.0dip</dimen>
+    <dimen name="text_size_15">15.0dip</dimen>
+    <!-- From: file:/Users/fony/Desktop/fony/as/asprojects/Android-Gradle-Examples-master/WZDP1/wZDP/src/main/res/values/color.xml -->
+    <eat-comment/>
+    <drawable name="transparent">#00000000</drawable>
+    <!-- From: file:/Users/fony/Desktop/fony/as/asprojects/Android-Gradle-Examples-master/WZDP1/wZDP/src/main/res/values/ids.xml -->
+    <eat-comment/>
+    <item name="about_version_code" type="id">false</item>
+    <item name="auto_focus" type="id"/>
+    <item name="decode" type="id"/>
+    <item name="decode_failed" type="id"/>
+    <item name="decode_succeeded" type="id"/>
+    <item name="encode_failed" type="id"/>
+    <item name="encode_succeeded" type="id"/>
+    <item name="gridview" type="id"/>
+    <item name="launch_product_query" type="id"/>
+    <!-- From: file:/Users/fony/Desktop/fony/as/asprojects/Android-Gradle-Examples-master/WZDP1/wZDP/src/main/res/values/framework_ids.xml -->
+    <eat-comment/>
+    <item name="lv_pagination_widget_data_body" type="id"/>
+    <!-- From: file:/Users/fony/Desktop/fony/as/asprojects/Android-Gradle-Examples-master/WZDP1/wZDP/src/main/res/values/ids.xml -->
+    <eat-comment/>
+    <item name="quit" type="id"/>
+    <item name="restart_preview" type="id"/>
+    <item name="return_scan_result" type="id"/>
+    <item name="search_book_contents_failed" type="id"/>
+    <item name="search_book_contents_succeeded" type="id"/>
+    <!-- From: file:/Users/fony/Desktop/fony/as/asprojects/Android-Gradle-Examples-master/WZDP1/wZDP/build/intermediates/exploded-aar/WZDP1/sdingmenufony/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <item name="selected_view" type="id"/>
+    <!-- From: file:/Users/fony/Desktop/fony/as/asprojects/Android-Gradle-Examples-master/WZDP1/wZDP/src/main/res/values/ids.xml -->
+    <eat-comment/>
+    <item name="split" type="id">false</item>
+    <item name="webview" type="id"/>
+    <!-- From: file:/Users/fony/Desktop/fony/as/asprojects/Android-Gradle-Examples-master/WZDP1/wZDP/build/intermediates/exploded-aar/WZDP1/sdingmenufony/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <integer name="num_cols">1</integer>
+    <!-- From: file:/Users/fony/Desktop/fony/as/asprojects/Android-Gradle-Examples-master/WZDP1/wZDP/src/main/res/values/fileexplorer_strings.xml -->
+    <eat-comment/>
+    <string name="accept_button">接受</string>
+    <!-- From: file:/Users/fony/Desktop/fony/as/asprojects/Android-Gradle-Examples-master/WZDP1/wZDP/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="action_settings">Settings</string>
+    <!-- From: file:/Users/fony/Desktop/fony/as/asprojects/Android-Gradle-Examples-master/WZDP1/wZDP/src/main/res/values/pagination_strings.xml -->
+    <eat-comment/>
+    <string name="all">共</string>
+    <!-- From: file:/Users/fony/Desktop/fony/as/asprojects/Android-Gradle-Examples-master/WZDP1/wZDP/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">物资调配系统</string>
+    <string name="camer">相机</string>
+    <string name="cancel">取消</string>
+    <!-- From: file:/Users/fony/Desktop/fony/as/asprojects/Android-Gradle-Examples-master/WZDP1/wZDP/src/main/res/values/fileexplorer_strings.xml -->
+    <eat-comment/>
+    <string name="cancel_button">取消</string>
+    <!-- From: file:/Users/fony/Desktop/fony/as/asprojects/Android-Gradle-Examples-master/WZDP1/wZDP/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="check_form">收货与验收表单</string>
+    <string name="conference">视频会议</string>
+    <!-- From: file:/Users/fony/Desktop/fony/as/asprojects/Android-Gradle-Examples-master/WZDP1/wZDP/src/main/res/values/pagination_strings.xml -->
+    <eat-comment/>
+    <string name="dataLoadingMsg">数据加载中,请稍候…</string>
+    <string name="dataLoadingTitle">数据加载</string>
+    <string name="entries">条</string>
+    <string name="firstPage">首页</string>
+    <!-- From: file:/Users/fony/Desktop/fony/as/asprojects/Android-Gradle-Examples-master/WZDP1/wZDP/src/main/res/values/fileexplorer_strings.xml -->
+    <eat-comment/>
+    <string name="folder_is_empty">文件夹为空</string>
+    <string name="folder_isnt_readable">文件夹不可读</string>
+    <string name="folder_up">上一级</string>
+    <!-- From: file:/Users/fony/Desktop/fony/as/asprojects/Android-Gradle-Examples-master/WZDP1/wZDP/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="hello_world">Hello world!</string>
+    <!-- From: file:/Users/fony/Desktop/fony/as/asprojects/Android-Gradle-Examples-master/WZDP1/wZDP/src/main/res/values/pagination_strings.xml -->
+    <eat-comment/>
+    <string name="isFirstPage">已经是第一页</string>
+    <string name="isLastPage">已经是最后一页</string>
+    <!-- From: file:/Users/fony/Desktop/fony/as/asprojects/Android-Gradle-Examples-master/WZDP1/wZDP/src/main/res/values/fileexplorer_strings.xml -->
+    <eat-comment/>
+    <string name="is_not_a_folder">不是目录</string>
+    <!-- From: file:/Users/fony/Desktop/fony/as/asprojects/Android-Gradle-Examples-master/WZDP1/wZDP/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="keyp_control">关键点见证</string>
+    <string name="keyp_equipment">关键点见证</string>
+    <string name="keyp_point">关键点见证表单</string>
+    <!-- From: file:/Users/fony/Desktop/fony/as/asprojects/Android-Gradle-Examples-master/WZDP1/wZDP/src/main/res/values/pagination_strings.xml -->
+    <eat-comment/>
+    <string name="lastPage">末页</string>
+    <!-- From: file:/Users/fony/Desktop/fony/as/asprojects/Android-Gradle-Examples-master/WZDP1/wZDP/src/main/res/values/fileexplorer_strings.xml -->
+    <eat-comment/>
+    <string name="list_folders_first">文件排序</string>
+    <string name="list_folders_first_default">true</string>
+    <string name="list_folders_first_off_summary">文件夹和文件按字母排序</string>
+    <string name="list_folders_first_on_summary">文件夹显示在文件之前</string>
+    <!-- From: file:/Users/fony/Desktop/fony/as/asprojects/Android-Gradle-Examples-master/WZDP1/wZDP/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="load_empty">暂无数据</string>
+    <string name="load_error">加载数据出错</string>
+    <string name="load_full">已加载全部</string>
+    <string name="load_ing">加载中···</string>
+    <string name="load_more">更多</string>
+    <!-- From: file:/Users/fony/Desktop/fony/as/asprojects/Android-Gradle-Examples-master/WZDP1/wZDP/src/main/res/values/pagination_strings.xml -->
+    <eat-comment/>
+    <string name="nextPage">下一页</string>
+    <!-- From: file:/Users/fony/Desktop/fony/as/asprojects/Android-Gradle-Examples-master/WZDP1/wZDP/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="online">在线统计</string>
+    <string name="online_count">在线统计</string>
+    <string name="online_sudio">现场服务</string>
+    <!-- From: file:/Users/fony/Desktop/fony/as/asprojects/Android-Gradle-Examples-master/WZDP1/wZDP/src/main/res/values/pagination_strings.xml -->
+    <eat-comment/>
+    <string name="order">第</string>
+    <string name="page">页</string>
+    <!-- From: file:/Users/fony/Desktop/fony/as/asprojects/Android-Gradle-Examples-master/WZDP1/wZDP/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="plan_control">铁塔排产计划</string>
+    <!-- From: file:/Users/fony/Desktop/fony/as/asprojects/Android-Gradle-Examples-master/WZDP1/wZDP/src/main/res/values/pagination_strings.xml -->
+    <eat-comment/>
+    <string name="prevPage">上一页</string>
+    <!-- From: file:/Users/fony/Desktop/fony/as/asprojects/Android-Gradle-Examples-master/WZDP1/wZDP/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pro_check">物质收货与验收</string>
+    <string name="pro_info">施工节点信息维护</string>
+    <string name="pro_service">现场服务</string>
+    <string name="product_control">生产过程监控</string>
+    <string name="progress_control">铁塔生产计划</string>
+    <string name="project">项目现场管理</string>
+    <string name="pull_to_refresh_pull_label">下拉可以刷新</string>
+    <string name="pull_to_refresh_refreshing_label">加载中...</string>
+    <string name="pull_to_refresh_release_label">松开可以刷新</string>
+    <string name="pull_to_refresh_tap_label">下拉可以刷新</string>
+    <string name="pull_to_refresh_update">最近更新：</string>
+    <string name="quality_control">质量监督管理</string>
+    <string name="quality_dfk">待反馈列表</string>
+    <string name="quality_feedback">待办质量问题处理反馈</string>
+    <string name="quality_zlwtbg">质量问题报告</string>
+    <string name="quality_zlxxwh">质量信息维护</string>
+    <string name="question">提问题</string>
+    <!-- From: file:/Users/fony/Desktop/fony/as/asprojects/Android-Gradle-Examples-master/WZDP1/wZDP/src/main/res/values/fileexplorer_strings.xml -->
+    <eat-comment/>
+    <string name="root_folder">根文件夹</string>
+    <string name="root_folder_summary">点击选择根文件夹</string>
+    <!-- From: file:/Users/fony/Desktop/fony/as/asprojects/Android-Gradle-Examples-master/WZDP1/wZDP/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="scan_text">将二维码放入框内, 即可自动扫描</string>
+    <!-- From: file:/Users/fony/Desktop/fony/as/asprojects/Android-Gradle-Examples-master/WZDP1/wZDP/src/main/res/values/fileexplorer_strings.xml -->
+    <eat-comment/>
+    <string name="select">选择</string>
+    <!-- From: file:/Users/fony/Desktop/fony/as/asprojects/Android-Gradle-Examples-master/WZDP1/wZDP/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="select_version">选择版本</string>
+    <string name="service_apply">申请服务</string>
+    <string name="service_evaluate">待评价列表</string>
+    <string name="service_quesition">服务问题</string>
+    <string name="start_app"/>
+    <string name="submit">提交</string>
+    <string name="supply">供应商现场管理</string>
+    <string name="supply_product">生产过程监控表单</string>
+    <string name="take_photo">拍照</string>
+    <string name="title_activity_scene">SceneActivity</string>
+    <string name="twitter">Twitter</string>
+    <string name="wordpress">Wordpress</string>
+    <!-- From: file:/Users/fony/Desktop/fony/as/asprojects/Android-Gradle-Examples-master/WZDP1/wZDP/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AnimationFade">
+
+        <!-- PopupWindow左右弹出的效果 -->
+        <item name="android:windowEnterAnimation">@anim/in_lefttoright</item>
+        <item name="android:windowExitAnimation">@anim/out_righttoleft</item>
+    </style>
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+
+
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="@android:attr/actionBarSize">70px</item>
+    </style>
+    <style name="BottomInAndOutAnimation" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/popup_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/popup_bottom_out</item>
+    </style>
+    <style name="Content_Button" parent="ViewBase">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:background">@drawable/selector_content_button</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="Content_Title" parent="ViewBase">
+        <item name="android:background">@drawable/content_module_tittle</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">30dp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:layout_height">55dp</item>
+    </style>
+    <!-- From: file:/Users/fony/Desktop/fony/as/asprojects/Android-Gradle-Examples-master/WZDP1/wZDP/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <style name="CustomDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+    </style>
+    <style name="CustomProgressDialog" parent="@style/CustomDialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <!-- From: file:/Users/fony/Desktop/fony/as/asprojects/Android-Gradle-Examples-master/WZDP1/wZDP/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="EditTextStyle" parent="ViewBase">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:inputType">textMultiLine</item>
+        <item name="android:background">@drawable/selector_edittext</item>
+    </style>
+    <style name="MyWidget" parent="@android:style/Theme"/>
+    <style name="MyWidget.ListView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:cacheColorHint">#00ffffff</item>
+        <item name="android:dividerHeight">2px</item>
+        <item name="android:listSelector">@android:color/transparent</item>
+        <item name="android:fadeScrollbars">true</item>
+    </style>
+    <style name="MyWidget.TabText">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/lightblue</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">marquee</item>
+    </style>
+    <style name="PopupAnimation" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/popup_enter</item>
+        <item name="android:windowExitAnimation">@anim/popup_exit</item>
+    </style>
+    <style name="TableRow_TextView" parent="ViewBase">
+        <item name="android:layout_marginLeft" ns1:ignore="PxUsage">1px</item>
+        <item name="android:layout_marginTop" ns1:ignore="PxUsage">1px</item>
+        <item name="android:background">@drawable/rec_boder_blue2</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:maxWidth">400dp</item>
+        <item name="android:minWidth">100dp</item>
+    </style>
+    <style name="UpInAndOutAnimation" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/popup_up_in</item>
+        <item name="android:windowExitAnimation">@anim/popup_up_out</item>
+    </style>
+    <style name="ViewBase">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="dailywork_bak">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+    <style name="deter_bak">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">@color/lightblue</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+    <style name="deter_baks">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+    <!-- From: file:/Users/fony/Desktop/fony/as/asprojects/Android-Gradle-Examples-master/WZDP1/wZDP/src/main/res/values/fileexplorer_styles.xml -->
+    <eat-comment/>
+    <style name="dialog_fileexplore" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+    </style>
+    <!-- From: file:/Users/fony/Desktop/fony/as/asprojects/Android-Gradle-Examples-master/WZDP1/wZDP/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="frame_button">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/frame_button_bg</item>
+        <item name="android:textColor">@color/frame_button_text_light</item>
+    </style>
+    <style name="item">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">30dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingRight">30dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:minHeight">52dp</item>
+        <item name="android:drawablePadding">16dp</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+    <style name="leftTextViewStyle" parent="ViewBase">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:focusable">false</item>
+    </style>
+    <style name="loading_small" parent="@android:style/Widget.ProgressBar.Small">
+        <item name="android:indeterminateDrawable">@anim/loading</item>
+        <item name="android:layout_width">42dip</item>
+        <item name="android:layout_height">42dip</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+    <!-- From: file:/Users/fony/Desktop/fony/as/asprojects/Android-Gradle-Examples-master/WZDP1/wZDP/build/intermediates/exploded-aar/WZDP1/sdingmenufony/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <style name="menuList">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">5dip</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    <!-- From: file:/Users/fony/Desktop/fony/as/asprojects/Android-Gradle-Examples-master/WZDP1/wZDP/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="nowwork">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="nowwork_bak">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textColor">@color/lightblue</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+    <style name="nowwork_baks">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+    <style name="table_edit_bg" parent="ViewBase">
+        <item name="android:layout_marginLeft" ns1:ignore="PxUsage">1px</item>
+        <item name="android:layout_marginTop" ns1:ignore="PxUsage">1px</item>
+        <item name="android:background">@drawable/rec_boder_blue2</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:maxWidth">400dp</item>
+        <item name="android:minWidth">100dp</item>
+    </style>
+    <style name="textTableRowStyle">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">80dp</item>
+    </style>
+    <style name="textViewStyle" parent="ViewBase">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_margin">1dp</item>
+    </style>
+    <style name="textViewStyles">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_margin">1dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_height">80dp</item>
+    </style>
+</resources>

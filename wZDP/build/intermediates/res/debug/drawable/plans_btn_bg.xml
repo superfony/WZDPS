@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <selector xmlns:android="http://schemas.android.com/apk/res/android">
+     <item android:state_pressed="true" android:state_focused="false"
+           android:drawable="@drawable/tower_plantablexz" /> <!-- pressed -->
+     <item android:state_focused="true"
+           android:drawable="@drawable/tower_plantablexz" /> <!-- focused  获得焦点时的图片-->
+     <item android:drawable="@drawable/tower_plantable" /> <!-- default -->
+    
+ </selector><!-- From: file:/Users/fony/Desktop/fony/as/asprojects/Android-Gradle-Examples-master/WZDP1/wZDP/src/main/res/drawable/plans_btn_bg.xml -->

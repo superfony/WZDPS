@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/daily_bkg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="10dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dip"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/time_arrow_bg"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/deter_baks"
+                        android:layout_marginTop="15dip"
+                        android:text="杆塔号：" />
+
+                    <TextView
+                        android:id="@+id/ganth"
+                        style="@style/deter_bak"
+                        android:layout_marginTop="15dip"
+                        android:ems="6" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/deter_baks"
+                        android:layout_marginTop="15dip"
+                        android:text="使用单位：" />
+
+                    <TextView
+                        android:id="@+id/sydw"
+                        style="@style/deter_bak"
+                        android:layout_marginTop="15dip"
+                        android:ems="12" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/deter_baks"
+                        android:layout_marginTop="15dip"
+                        android:text="供应商：" />
+
+                    <TextView
+                        android:id="@+id/vendor"
+                        style="@style/deter_bak"
+                        android:layout_marginTop="15dip" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/deter_baks"
+                        android:layout_marginTop="10dip"
+                        android:text="塔形：" />
+
+                    <TextView
+                        android:id="@+id/tax"
+                        style="@style/deter_bak"
+                        android:layout_marginTop="10dip"
+                        android:ems="7" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/deter_baks"
+                        android:layout_marginTop="10dip"
+                        android:text="重量：" />
+
+                    <TextView
+                        android:id="@+id/zhongl"
+                        style="@style/deter_bak"
+                        android:layout_marginTop="10dip"
+                        android:ems="12" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/deter_baks"
+                        android:layout_marginTop="10dip"
+                        android:text="计划装车数量（总）：" />
+
+                    <TextView
+                        android:id="@+id/jhzczl"
+                        style="@style/deter_bak"
+                        android:layout_marginTop="10dip" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip" />
+
+        <com.epsmart.wzdp.view.PullToRefreshListView
+            android:id="@+id/list_act"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:cacheColorHint="@android:color/transparent"
+            android:dividerHeight="5px"
+            android:fadingEdge="none"
+            android:scrollingCache="false" />
+    </LinearLayout>
+
+</RelativeLayout><!-- From: file:/Users/fony/Desktop/fony/as/asprojects/Android-Gradle-Examples-master/WZDP1/wZDP/src/main/res/layout/delivery_determine.xml -->

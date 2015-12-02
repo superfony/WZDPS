@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/set_revise_bg"
+    android:focusable="true"
+    android:focusableInTouchMode="true" 
+    android:gravity="center"
+    >
+
+    <LinearLayout
+        android:id="@+id/loginLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/set_re_bg" >
+
+        <RelativeLayout
+            android:id="@+id/loginone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_marginTop="40dp"
+            >
+            
+                <TextView
+                    android:id="@+id/old_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dip"
+                    android:layout_marginLeft="50dp"
+                    android:gravity="right"
+                    android:text="旧密码："
+                    android:textColor="#228180"
+                    android:ems="5"
+                    android:textSize="22sp" />
+
+            <RelativeLayout
+                android:id="@+id/old_lay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/old_tv"
+                android:background="@drawable/selector_edittext"
+                android:gravity="center_vertical" >
+                <ImageView
+                    android:id="@+id/user_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/login_icon_password" />
+
+                <EditText
+                    android:id="@+id/oldpwd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/user_img"
+                    android:background="@android:color/transparent"
+                    android:ems="10"
+                    android:inputType="textPassword"
+                    android:padding="1dp"
+                    android:text="" />
+            </RelativeLayout>
+            
+             
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp" >
+
+            <TextView
+                android:id="@+id/new_tv"
+                android:layout_width="wrap_content"
+               android:layout_height="60dip"
+                android:layout_marginLeft="50dp"
+                android:text="新密码："
+                android:ems="5"
+                android:gravity="right"
+               android:textColor="#228180"
+                android:textSize="22sp" />
+
+            <RelativeLayout
+                android:id="@+id/new_lay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/new_tv"
+                android:background="@drawable/selector_edittext"
+                android:gravity="center_vertical" >
+
+                <ImageView
+                    android:id="@+id/user_img1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/login_icon_password" />
+
+                <EditText
+                    android:id="@+id/newpwd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/user_img1"
+                    android:background="@android:color/transparent"
+                    android:ems="10"
+                    android:inputType="textPassword"
+                    android:padding="1dp"
+                    android:text="" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/newtwo_tv"
+                android:layout_width="wrap_content"
+               android:layout_height="60dip"
+                android:layout_marginLeft="50dp"
+                android:text="确认密码：" 
+                android:ems="5"
+                android:textColor="#228180"
+                android:gravity="right"
+                android:textSize="22sp"/>
+
+            <RelativeLayout
+                android:id="@+id/newtwo_lay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                
+                android:background="@drawable/selector_edittext"
+                android:layout_toRightOf="@id/newtwo_tv"
+                android:gravity="center_vertical" >
+
+                <ImageView
+                    android:id="@+id/user_img2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/login_icon_password" />
+
+                <EditText
+                    android:id="@+id/reapwd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/user_img2"
+                    android:background="@android:color/transparent"
+                    android:ems="10"
+                    android:inputType="textPassword"
+                    android:padding="1dp"
+                    android:text="" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dip"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/drop_out"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/install_real_btn" >
+            </Button>
+
+            <Button
+                android:id="@+id/exit_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dip"
+                android:background="@drawable/install_cancel_btn" >
+            </Button>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

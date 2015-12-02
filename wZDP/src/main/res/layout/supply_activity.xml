@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:circle="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/supply_manage"
+    tools:context=".activity.supply.SupplyMenuActivity"
+    tools:ignore="HardcodedText" >
+
+    <com.epsmart.wzdp.view.CircleLayoutTwo
+        android:id="@+id/supply_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_horizontal"
+        circle:circleBackground="@drawable/circle"
+        circle:firstChildPosition="South"
+        circle:isRotating="true"
+        circle:rotateToCenter="true" >
+
+        <!-- circle:circleBackground="@drawable/green"  > -->
+
+        <com.epsmart.wzdp.view.CircleImageView
+            android:id="@+id/product_image"
+            circle:name="@string/product_control"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_product_btn" />
+
+        <com.epsmart.wzdp.view.CircleImageView
+            android:id="@+id/quality_image"
+            circle:name="@string/quality_control"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_quality_btn" />
+
+        <com.epsmart.wzdp.view.CircleImageView
+            android:id="@+id/point_image"
+            circle:name="@string/keyp_control"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_point_btn" />
+
+        <com.epsmart.wzdp.view.CircleImageView
+            android:id="@+id/equipment_image"
+            circle:name="@string/keyp_equipment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_equipment_btn" />
+    </com.epsmart.wzdp.view.CircleLayoutTwo>
+
+</RelativeLayout>

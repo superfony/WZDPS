@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/showmenu_lay"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/sding_l"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/sdingmenu_lay"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/d_left_form"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/dform_btn_bg" />
+
+        <ImageView
+            android:id="@+id/s_left_form"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/sform_btn_bg" />
+
+        <ImageView
+            android:id="@+id/c_left_form"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/sform_btn_bg" />
+    </LinearLayout>
+
+</LinearLayout>

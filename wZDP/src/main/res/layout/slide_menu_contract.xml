@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/showmenu_lay"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/sding_l"
+    android:orientation="horizontal" >
+
+    <ScrollView
+        android:id="@+id/scrollView_left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:overScrollMode="always"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:id="@+id/sdingmenu_lay"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="260dp"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/tower_progress"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/progress_btn_bg" />
+
+            <ImageView
+                android:id="@+id/porcelain_progress"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/proci_btn_bg" />
+
+            <ImageView
+                android:id="@+id/reunite_progress"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/profuhe_btn_bg" />
+
+            <ImageView
+                android:id="@+id/wireway_progress"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/prodao_btn_bg" />
+
+            <ImageView
+                android:id="@+id/ground_progress"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/prodi_btn_bg" />
+
+            <ImageView
+                android:id="@+id/cable_progress"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/proguang_btn_bg" />
+
+            <ImageView
+                android:id="@+id/fittings_progress"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/projinju_btn_bg" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

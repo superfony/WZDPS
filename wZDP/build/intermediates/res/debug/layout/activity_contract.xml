@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:circle="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/supply_manage"
+    tools:context=".ContractActivity"
+    tools:ignore="HardcodedText" >
+
+    <com.epsmart.wzdp.view.CircleLayoutTwo
+        android:id="@+id/contract_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_horizontal"
+        circle:circleBackground="@drawable/circle"
+        circle:firstChildPosition="South"
+        circle:isRotating="true"
+        circle:rotateToCenter="true" >
+
+        <com.epsmart.wzdp.view.CircleImageView
+            android:id="@+id/plan_image"
+            circle:name="@string/plan_control"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_allplan_btn" />
+
+        <com.epsmart.wzdp.view.CircleImageView
+            android:id="@+id/progress_image"
+            circle:name="@string/progress_control"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_allprogress_btn" />
+
+        <com.epsmart.wzdp.view.CircleImageView
+            android:id="@+id/delivery_image"
+            circle:name="@string/progress_control"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_delivery_btn" />
+
+        <com.epsmart.wzdp.view.CircleImageView
+            android:id="@+id/departure_image"
+            circle:name="@string/progress_control"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_departure_btn" />
+
+        <com.epsmart.wzdp.view.CircleImageView
+            android:id="@+id/confirm_image"
+            circle:name="@string/progress_control"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_confirm_btn" />
+    </com.epsmart.wzdp.view.CircleLayoutTwo>
+
+</RelativeLayout><!-- From: file:/Users/fony/Desktop/fony/as/asprojects/Android-Gradle-Examples-master/WZDP1/wZDP/src/main/res/layout/activity_contract.xml -->

@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="HardcodedText" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:paddingTop="60dip"
+        android:background="@drawable/photo_bg"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/photo_cm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dip"
+            android:background="@drawable/photo_camm" />
+
+        <ImageButton
+              android:id="@+id/photo_cdmi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+              android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dip"
+            android:background="@drawable/photo_cdmi" />
+
+        <ImageButton
+            android:id="@+id/photo_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+              android:layout_marginTop="20dip"
+              android:layout_gravity="center_horizontal"
+            android:background="@drawable/photo_cancal" />
+    </LinearLayout>
+
+</RelativeLayout>

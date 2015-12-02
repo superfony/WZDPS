@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+<!-- 定义从右向左动画退出动画 -->
+<translate
+android:fromYDelta="0"
+android:toYDelta="-100%"
+android:duration="500"/>
+</set>
+<!-- From: file:/Users/fony/Desktop/fony/as/asprojects/Android-Gradle-Examples-master/WZDP1/wZDP/src/main/res/anim/out_righttoleft.xml -->

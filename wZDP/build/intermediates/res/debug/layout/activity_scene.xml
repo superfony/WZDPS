@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:circle="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/supply_manage"
+    tools:ignore="HardcodedText"
+    tools:context=".MovedActivity" >
+
+	 <com.epsmart.wzdp.view.CircleLayoutTwo
+        android:id="@+id/scene_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_horizontal"
+        circle:firstChildPosition="South" 
+        circle:circleBackground="@drawable/circle"
+        circle:rotateToCenter="true" 
+        circle:isRotating="true" 
+       
+        >       
+<!--         circle:circleBackground="@drawable/green"  > -->
+
+
+
+        <com.epsmart.wzdp.view.CircleImageView
+            android:id="@+id/proinfo_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_proinfo_btn" />
+<!-- 
+	        <fragment
+	            android:id="@+id/fragment_left"
+	            android:name="com.epsmart.wzdp.activity.scene.fragment.LeftFragment"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	             />
+	  
+ -->
+
+        <com.epsmart.wzdp.view.CircleImageView
+            android:id="@+id/procheck_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_procheck_btn" />
+
+        <com.epsmart.wzdp.view.CircleImageView
+            android:id="@+id/proservice_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_proservice_btn" />
+
+       <!-- <com.epsmart.wzdp.view.CircleImageView
+            android:id="@+id/prowork_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_work_btn"/> -->
+
+    </com.epsmart.wzdp.view.CircleLayoutTwo>
+
+
+
+</RelativeLayout><!-- From: file:/Users/fony/Desktop/fony/as/asprojects/Android-Gradle-Examples-master/WZDP1/wZDP/src/main/res/layout/activity_scene.xml -->

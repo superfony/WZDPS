@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <selector xmlns:android="http://schemas.android.com/apk/res/android">
+     <item android:state_pressed="true"
+           android:drawable="@drawable/cancel_down" /> <!-- pressed -->
+     <item android:state_focused="true"
+           android:drawable="@drawable/cancel_down" /> <!-- focused -->
+     <item android:drawable="@drawable/cencel_up" /> <!-- default -->
+ </selector><!-- From: file:/Users/fony/Desktop/fony/as/asprojects/Android-Gradle-Examples-master/WZDP1/wZDP/src/main/res/drawable/cancels_btn.xml -->

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="75dip"
+    android:background="@drawable/search_item_bg" >
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="5dip" />
+
+    <TextView
+        android:id="@+id/title"
+        style="@style/nowwork"
+        android:layout_alignTop="@id/icon"
+        android:layout_marginTop="10dip"
+        android:layout_toRightOf="@id/icon"
+        android:maxWidth="80dip" />
+
+    <TextView
+        android:id="@+id/titleValue"
+        style="@style/nowwork"
+        android:layout_alignBaseline="@id/title"
+        android:layout_toRightOf="@id/title"
+        android:maxWidth="190dip" />
+
+    <TextView
+        android:id="@+id/num"
+        style="@style/nowwork"
+        android:layout_below="@id/title"
+        android:layout_toRightOf="@id/icon"
+        android:maxWidth="80dip" />
+
+    <TextView
+        android:id="@+id/numValue"
+        style="@style/nowwork"
+        android:layout_alignBaseline="@id/num"
+        android:layout_toRightOf="@id/num"
+        android:ellipsize="end"
+        android:maxWidth="190dip" />
+
+    <TextView
+        android:id="@+id/time"
+        style="@style/nowwork"
+        android:layout_below="@id/num"
+        android:layout_toRightOf="@id/icon"
+        android:maxWidth="80dip" />
+
+    <TextView
+        android:id="@+id/timeValue"
+        style="@style/nowwork"
+        android:layout_alignBaseline="@id/time"
+        android:layout_toRightOf="@id/time"
+        android:maxWidth="190dip" />
+
+</RelativeLayout>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/login_box"
+    android:focusable="true"
+    android:focusableInTouchMode="true" >
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dip"
+        android:orientation="vertical"
+        >
+
+    <RelativeLayout
+        android:id="@+id/loginLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="190dip"
+        android:background="@drawable/login_back" >
+
+        <RelativeLayout
+            android:id="@+id/loginone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/selector_edittext"
+            android:gravity="center_vertical" >
+
+            <ImageView
+                android:id="@+id/user_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="login_icon_user"
+                android:src="@drawable/login_icon_user" />
+
+            <EditText
+                android:id="@+id/user_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/user_img"
+                android:background="@android:color/transparent"
+                android:ems="10"
+                android:padding="1dp"
+                android:text="" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/pwd_lay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/loginone"
+            android:layout_alignRight="@id/loginone"
+            android:layout_below="@id/loginone" >
+
+            <RelativeLayout
+                android:id="@+id/logintwo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:background="@drawable/selector_edittext"
+                android:gravity="center_vertical" >
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="login_icon_password"
+                    android:src="@drawable/login_icon_password" />
+
+                <EditText
+                    android:id="@+id/text_pwd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/imageView2"
+                    android:background="@android:color/transparent"
+                    android:ems="8"
+                    android:inputType="textPassword"
+                    android:padding="1dp" />
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/button_login"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="-5dip"
+                android:layout_marginTop="6dip"
+                android:layout_toRightOf="@id/logintwo"
+                android:background="@drawable/login_btn_bg" />
+        </RelativeLayout>
+
+        <com.epsmart.wzdp.view.SwitchButton
+            android:id="@+id/switch_btn"
+            style="@style/item"
+            android:layout_below="@id/pwd_lay"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/selector_preference_complete"
+            android:checked="true"
+            android:gravity="center_horizontal"
+            android:text="记住密码"
+            android:textColor="@color/gray"
+            app:frameDrawable="@drawable/switch_frame"
+            app:sliderDrawable="@drawable/selector_switch_slider"
+            app:stateDrawable="@drawable/selector_switch_state"
+            app:stateMaskDrawable="@drawable/switch_state_mask"
+            app:withTextInterval="16dp" />
+    </RelativeLayout>
+</LinearLayout>
+</RelativeLayout><!-- From: file:/Users/fony/Desktop/fony/as/asprojects/Android-Gradle-Examples-master/WZDP1/wZDP/src/main/res/layout/activity_login.xml -->

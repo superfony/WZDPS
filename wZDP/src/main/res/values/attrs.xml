@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <declare-styleable name="Circle">
+        <attr name="circleBackground" format="integer" />
+        <attr name="firstChildPosition">
+            <enum name="East" value="0" />
+            <enum name="South" value="90" />
+            <enum name="West" value="180" />
+            <enum name="North" value="270" />
+        </attr>
+        <attr name="rotateToCenter" format="boolean" />
+        <attr name="isRotating" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="CircleImageView">
+        <attr name="name" format="string" />
+    </declare-styleable>
+    
+    <declare-styleable name="PullBarListView">
+        <attr name="scrollBarPanel" format="reference" />
+        <attr name="scrollBarPanelInAnimation" format="reference" />
+        <attr name="scrollBarPanelOutAnimation" format="reference" />
+    </declare-styleable>
+    
+     <declare-styleable name="SwitchButton">
+        <attr name="frameDrawable" format="reference|color"/>
+        <attr name="stateDrawable" format="reference|color"/>
+        <attr name="stateMaskDrawable" format="reference|color"/>
+        <attr name="sliderDrawable" format="reference|color"/>
+	    <attr name="withTextInterval" format="dimension"/>
+    </declare-styleable>
+    
+      <declare-styleable name="Theme">
+        <attr name="galleryStyle" format="reference" />
+        <attr name="spinnerStyle" format="reference" />
+        <attr name="gravity">
+            <!-- Push object to the top of its container, not changing its size. -->
+            <flag name="top" value="0x30" />
+            <!-- Push object to the bottom of its container, not changing its size. -->
+            <flag name="bottom" value="0x50" />
+            <!-- Push object to the left of its container, not changing its size. -->
+            <flag name="left" value="0x03" />
+            <!-- Push object to the right of its container, not changing its size. -->
+            <flag name="right" value="0x05" />
+            <!-- Place object in the vertical center of its container, not changing its size. -->
+            <flag name="center_vertical" value="0x10" />
+            <!-- Grow the vertical size of the object if needed so it completely fills its container. -->
+            <flag name="fill_vertical" value="0x70" />
+            <!-- Place object in the horizontal center of its container, not changing its size. -->
+            <flag name="center_horizontal" value="0x01" />
+            <!-- Grow the horizontal size of the object if needed so it completely fills its container. -->
+            <flag name="fill_horizontal" value="0x07" />
+            <!-- Place the object in the center of its container in both the vertical and horizontal axis, not changing its size. -->
+            <flag name="center" value="0x11" />
+            <!-- Grow the horizontal and vertical size of the object if needed so it completely fills its container. -->
+            <flag name="fill" value="0x77" />
+            <!-- Additiona l option that can be set to have the top and/or bottom edges of
+                 the child clipped to its container's bounds.
+                 The clip will be based on the vertical gravity: a top gravity will clip the bottom
+                 edge, a bottom gravity will clip the top edge, and neither will clip both edges. -->
+            <flag name="clip_vertical" value="0x80" />
+            <!-- Additional option that can be set to have the left and/or right edges of
+                 the child clipped to its container's bounds.
+                 The clip will be based on the horizontal gravity: a left gravity will clip the right
+                 edge, a right gravity will clip the left edge, and neither will clip both edges. -->
+            <flag name="clip_horizontal" value="0x08" />
+        </attr>
+        <attr name="entries" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="MyGallery">
+        <attr name="gravity" />
+        <attr name="animationDuration" format="integer" min="0" />
+        <attr name="spacing" format="dimension" />
+        <attr name="unselectedAlpha" format="float" />
+    </declare-styleable>
+    <declare-styleable name="MyAbsSpinner">
+        <attr name="entries"/>
+    </declare-styleable>
+    
+     <declare-styleable name="FixedGridLayout">
+        <attr name="cellWidth" format="dimension"/>
+        <attr name="cellHeight" format="dimension"/>
+    </declare-styleable>
+</resources>

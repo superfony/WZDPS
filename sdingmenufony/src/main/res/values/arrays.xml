@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="setting_items">
+        <item>用户信息</item>
+        <item>意见反馈</item>
+        <item>版本更新</item>
+        <item>关于我们</item>
+        <item>设置</item>
+        <item>退出</item>
+    </string-array>
+    
+     <string-array name="color_names">
+        <item>Red</item>
+        <item>Green</item>
+        <item>Blue</item>
+    </string-array>
+
+</resources>

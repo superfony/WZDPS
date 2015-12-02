@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true"
+    android:scrollbars="none" >
+
+    <RelativeLayout
+        android:id="@+id/queryRoot"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="58dip"
+        android:background="@drawable/searchbg" >
+       <TableLayout
+            android:id="@+id/search_table"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="300dip"
+            android:layout_marginTop="50dip" >
+
+            <TableRow
+                android:id="@+id/tableRow_one"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                 >
+
+                <TextView
+                    android:id="@+id/search_title_one"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/itemtextcolor"
+                    android:text="订单审批开始月份："
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/search_et_one"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="8" />
+
+                <TextView
+                    android:id="@+id/search_title_two"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="订单审批结束月份："
+                    android:textColor="@color/itemtextcolor"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/search_et_two"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="8" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal" >
+
+                <TextView
+                    android:id="@+id/search_title_three"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/itemtextcolor"
+                    android:text="确定交货期开始月份："
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/search_et_three"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="8" />
+
+                <TextView
+                    android:id="@+id/search_title_four"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/itemtextcolor"
+                    android:text="确定交货期开结束月份："
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/search_et_four"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="8" />
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/search_title_five"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/itemtextcolor"
+                    android:text="电压等级："
+                    android:textSize="18sp" />
+
+                <EditText 
+                    android:id="@+id/search_et_five"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="全部"
+                    android:ems="8"/>
+
+                <TextView
+                    android:id="@+id/search_title_six"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/itemtextcolor"
+                    android:text="是否有日期查询条件："
+                    android:textSize="18sp" />
+
+                <EditText 
+                    android:id="@+id/search_et_six"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="8"/>
+            </TableRow>
+
+        </TableLayout>
+
+        <LinearLayout
+            android:id="@+id/submit_btn_lay"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/search_table"
+            android:layout_marginTop="50dip"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+            <Button
+                android:id="@+id/query"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="50dip"
+                android:background="@drawable/search_btn_bg" >
+            </Button>
+
+            <Button
+                android:id="@+id/cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dip"
+                android:background="@drawable/cancel_btn_bg">
+                
+            </Button>
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView><!-- From: file:/Users/fony/Desktop/fony/as/asprojects/Android-Gradle-Examples-master/WZDP1/wZDP/src/main/res/layout/querysuppliesachar.xml -->

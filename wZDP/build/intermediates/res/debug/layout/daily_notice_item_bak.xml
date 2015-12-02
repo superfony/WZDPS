@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/daily_noticelist_item_bg"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="27dip" />
+
+    <TextView
+        android:id="@+id/titleValue"
+        style="@style/dailywork_bak"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="15dip"
+        android:layout_marginRight="20dip"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="140dip" >
+
+        <TableLayout
+            android:id="@+id/dataTable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:shrinkColumns="1" >
+
+            <TableRow android:gravity="top" >
+
+                <TextView
+                    android:id="@+id/title"
+                    style="@style/nowwork_baks"
+                    android:layout_marginTop="20dip" />
+            </TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="10dip" />
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/num"
+                    style="@style/dailywork_bak" />
+
+                <TextView
+                    android:id="@+id/numValue"
+                    style="@style/dailywork_bak" />
+            </TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="10dip" />
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/time"
+                    style="@style/dailywork_bak" />
+
+                <TextView
+                    android:id="@+id/timeValue"
+                    style="@style/dailywork_bak" />
+            </TableRow>
+
+            <TextView android:layout_height="20dip" />
+        </TableLayout>
+    </LinearLayout>
+
+</RelativeLayout><!-- From: file:/Users/fony/Desktop/fony/as/asprojects/Android-Gradle-Examples-master/WZDP1/wZDP/src/main/res/layout/daily_notice_item_bak.xml -->

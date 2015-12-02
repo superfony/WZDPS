@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true"
+    android:scrollbars="none" >
+
+    <RelativeLayout
+        android:id="@+id/queryRoot"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dip"
+        android:background="@drawable/searchbg" >
+
+        <TableLayout
+            android:id="@+id/search_table"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="290dip"
+            android:layout_marginTop="50dip" >
+
+            <TableRow
+                android:id="@+id/tableRow_one"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/search_title_one"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/itemtextcolor"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/search_et_one"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="12" />
+            </TableRow>
+        </TableLayout>
+
+        <LinearLayout
+            android:id="@+id/submit_btn_lay"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/search_table"
+            android:layout_marginTop="50dip"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/query"
+                android:layout_width="150dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="500dip"
+                android:layout_marginRight="50dip"
+                android:background="@drawable/search_btn_bg" >
+            </Button>
+
+            <Button
+                android:id="@+id/cancel"
+                android:layout_width="150dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dip"
+                android:background="@drawable/cancel_btn_bg" >
+            </Button>
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>

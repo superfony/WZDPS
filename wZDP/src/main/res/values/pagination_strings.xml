@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ##################分页控件################## -->
+    <string name="firstPage">首页</string>
+    <string name="prevPage">上一页</string>
+    <string name="nextPage">下一页</string>
+    <string name="lastPage">末页</string>
+    <string name="entries">条</string>
+    <string name="all">共</string>
+    <string name="page">页</string>
+    <string name="order">第</string>
+    <string name="dataLoadingTitle">数据加载</string>
+    <string name="dataLoadingMsg">数据加载中,请稍候&#8230;</string>
+    <string name="isFirstPage">已经是第一页</string>
+    <string name="isLastPage">已经是最后一页</string>
+
+</resources>

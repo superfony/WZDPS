@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <selector xmlns:android="http://schemas.android.com/apk/res/android">
+     <item android:state_pressed="true" android:state_focused="false"
+           android:drawable="@drawable/material_supplyxz" /> <!-- pressed -->
+     <item android:state_focused="true"
+           android:drawable="@drawable/material_supplyxz" /> <!-- focused  获得焦点时的图片-->
+     <item android:drawable="@drawable/material_supply" /> <!-- default -->
+    
+ </selector>

@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:circle="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/supply_manage"
+    tools:context=".MovedActivity"
+    tools:ignore="HardcodedText" >
+
+    <com.epsmart.wzdp.view.CircleLayoutTwo
+        android:id="@+id/supply_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_horizontal"
+        circle:circleBackground="@drawable/circle"
+        circle:firstChildPosition="South"
+        circle:isRotating="true"
+        circle:rotateToCenter="true" >
+
+        <com.epsmart.wzdp.view.CircleImageView
+            android:id="@+id/mquality_image"
+            circle:name="@string/product_control"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/icon_mquality_btn" />
+
+        <com.epsmart.wzdp.view.CircleImageView
+            android:id="@+id/mservice_image"
+            circle:name="@string/quality_control"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/icon_mservice_btn" />
+
+        <!--
+             <com.epsmart.wzdp.view.CircleImageView
+            android:id="@+id/mrequest_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_mrequest_btn"
+            circle:name="@string/keyp_control" />
+        -->
+    </com.epsmart.wzdp.view.CircleLayoutTwo>
+
+</RelativeLayout>

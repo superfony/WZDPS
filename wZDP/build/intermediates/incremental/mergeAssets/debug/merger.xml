@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="unspecified"><source path="/Users/fony/Desktop/fony/as/asprojects/Android-Gradle-Examples-master/WZDP1/wZDP/build/intermediates/exploded-aar/WZDP1/sdingmenufony/unspecified/assets"/></dataSet><dataSet config="main"><source path="/Users/fony/Desktop/fony/as/asprojects/Android-Gradle-Examples-master/WZDP1/wZDP/src/main/assets"/></dataSet><dataSet config="debug"><source path="/Users/fony/Desktop/fony/as/asprojects/Android-Gradle-Examples-master/WZDP1/wZDP/src/debug/assets"/></dataSet></merger>

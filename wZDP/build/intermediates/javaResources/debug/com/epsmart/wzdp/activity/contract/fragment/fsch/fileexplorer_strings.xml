@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="folder_up">上一级</string>
+    <string name="is_not_a_folder">不是目录</string>
+    <string name="folder_isnt_readable">文件夹不可读</string>
+    <string name="folder_is_empty">文件夹为空</string>
+    <string name="list_folders_first">文件排序</string>
+    <string name="list_folders_first_on_summary">文件夹显示在文件之前</string>
+    <string name="list_folders_first_off_summary">文件夹和文件按字母排序</string>
+    <string name="root_folder">根文件夹</string>
+    <string name="root_folder_summary">点击选择根文件夹</string>
+    <string name="accept_button">接受</string>
+    <string name="cancel_button">取消</string>
+    <string name="list_folders_first_default">true</string>
+    <string name="select">选择</string>
+
+</resources>

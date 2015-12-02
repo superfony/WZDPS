@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="拒绝原因"
+                android:layout_marginLeft="50dip"
+                android:textSize="24dp"
+                />
+
+            <EditText
+                android:id="@+id/jujue_reasion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxWidth="500dip"
+                android:ems="12"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dip"
+                android:text="实际发货时间"
+                android:textSize="24dp"
+                />
+            <EditText
+                android:id="@+id/jujue_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxWidth="500dip"
+                android:ems="12"
+                android:singleLine="true"
+                android:focusable="false"
+                />
+
+
+        </LinearLayout>
+
+   <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="90dip"
+            android:paddingBottom="20dip"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/exit_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:background="@drawable/cancels_btn"
+               >
+            </Button>
+
+            <Button
+                android:id="@+id/drop_out"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dip"
+                android:background="@drawable/submits_btn"
+                >
+            </Button>
+       <!--android:background="@drawable/exit_cancel"-->
+       <!--android:background="@drawable/drop_out"-->
+            </LinearLayout>
+        </LinearLayout>
+</RelativeLayout><!-- From: file:/Users/fony/Desktop/fony/as/asprojects/Android-Gradle-Examples-master/WZDP1/wZDP/src/main/res/layout/jujue_dialog.xml -->

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  
+     android:id="@+id/contentRoot"
+     android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/background">
+    
+    
+     <ListView
+        android:id="@+id/lv_pagination_widget_data_body"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:divider="#cee7e6"  
+    	android:dividerHeight="3px"
+        android:layout_above="@+id/footer"
+        android:layoutAnimation="@anim/navagation_gridview_anim"
+        android:cacheColorHint="@android:color/transparent"
+        android:scrollbars="none" />
+
+    <include
+        android:id="@+id/footer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        layout="@layout/pagination_widget" />
+
+</RelativeLayout>

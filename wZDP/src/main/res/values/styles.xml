@@ -1,0 +1,238 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="@android:attr/actionBarSize">70px</item>
+    </style>
+
+    <style name="ViewBase">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    <!-- 内容界面标题 样式 -->
+    <style name="Content_Title" parent="ViewBase">
+        <item name="android:background">@drawable/content_module_tittle</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">30dp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:layout_height">55dp</item>
+    </style>
+
+    <style name="item">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">30dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingRight">30dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:minHeight">52dp</item>
+        <item name="android:drawablePadding">16dp</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <!-- 内容界面button 样式 -->
+    <!--
+    <Button
+                android:textSize="18sp"
+                />
+    -->
+    <style name="Content_Button" parent="ViewBase">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:background">@drawable/selector_content_button</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <!-- textView 样式 -->
+    <style name="textViewStyle" parent="ViewBase">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_margin">1dp</item>
+    </style>
+
+    <style name="EditTextStyle" parent="ViewBase">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:inputType">textMultiLine</item>
+        <item name="android:background">@drawable/selector_edittext</item>
+    </style>
+
+    <style name="leftTextViewStyle" parent="ViewBase">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:focusable">false</item>
+    </style>
+
+    <style name="TableRow_TextView" parent="ViewBase">
+        <item name="android:layout_marginLeft" tools:ignore="PxUsage">1px</item>
+        <item name="android:layout_marginTop" tools:ignore="PxUsage">1px</item>
+        <item name="android:background">@drawable/rec_boder_blue2</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:maxWidth">400dp</item>
+        <item name="android:minWidth">100dp</item>
+    </style>
+
+    <!-- 顶部标签的样式 -->
+    <style name="frame_button">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/frame_button_bg</item>
+        <item name="android:textColor">@color/frame_button_text_light</item>
+    </style>
+
+    <style name="nowwork">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="nowwork_baks">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="nowwork_bak">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textColor">@color/lightblue</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="textViewStyles">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_margin">1dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_height">80dp</item>
+    </style>
+
+    <style name="textTableRowStyle">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">80dp</item>
+    </style>
+
+    <style name="table_edit_bg" parent="ViewBase">
+        <item name="android:layout_marginLeft" tools:ignore="PxUsage">1px</item>
+        <item name="android:layout_marginTop" tools:ignore="PxUsage">1px</item>
+        <item name="android:background">@drawable/rec_boder_blue2</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:maxWidth">400dp</item>
+        <item name="android:minWidth">100dp</item>
+    </style>
+
+    <style name="dailywork_bak">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="AnimationFade">
+
+        <!-- PopupWindow左右弹出的效果 -->
+        <item name="android:windowEnterAnimation">@anim/in_lefttoright</item>
+        <item name="android:windowExitAnimation">@anim/out_righttoleft</item>
+    </style>
+
+    <style name="PopupAnimation" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/popup_enter</item>
+        <item name="android:windowExitAnimation">@anim/popup_exit</item>
+    </style>
+
+    <style name="UpInAndOutAnimation" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/popup_up_in</item>
+        <item name="android:windowExitAnimation">@anim/popup_up_out</item>
+    </style>
+
+    <style name="BottomInAndOutAnimation" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/popup_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/popup_bottom_out</item>
+    </style>
+
+    <style name="loading_small" parent="@android:style/Widget.ProgressBar.Small">
+        <item name="android:indeterminateDrawable">@anim/loading</item>
+        <item name="android:layout_width">42dip</item>
+        <item name="android:layout_height">42dip</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+    <style name="MyWidget" parent="@android:style/Theme" />
+
+    <style name="MyWidget.TabText">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/lightblue</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">marquee</item>
+    </style>
+    
+    
+     <style name="deter_baks">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="deter_bak">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">@color/lightblue</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+    
+
+    <!-- Common list view styles -->
+    <style name="MyWidget.ListView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:cacheColorHint">#00ffffff</item>
+        <item name="android:dividerHeight">2px</item>
+        <item name="android:listSelector">@android:color/transparent</item>
+        <item name="android:fadeScrollbars">true</item>
+    </style>
+</resources>

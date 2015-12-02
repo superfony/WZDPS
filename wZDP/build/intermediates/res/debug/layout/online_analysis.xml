@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/online_analysis" >
+
+    <LinearLayout
+        android:id="@+id/search_table"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="270dip"
+        android:layout_marginTop="16dip"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/tableRow_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="400dip"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/online_signing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/signing_btn_bg" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tableRow_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="420dip"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/online_material"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/material_btn_bg" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tableRow_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="430dip"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/online_settlements"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/settlements_btn_bg" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tableRow_four"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="430dip"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/online_schedule"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/schedule_btn_bg" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tableRow_five"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="420dip"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/online_plan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/plans_btn_bg" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tableRow_six"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="400dip"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/online_progress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/progresss_btn_bg"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout><!-- From: file:/Users/fony/Desktop/fony/as/asprojects/Android-Gradle-Examples-master/WZDP1/wZDP/src/main/res/layout/online_analysis.xml -->
